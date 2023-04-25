@@ -1,0 +1,324 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+    height: fit-content;
+    color: #333;
+    word-wrap: break-word;
+    
+
+
+  }
+  div{
+    transition: background-color 0.3s ease-out  ;
+  }
+
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  /* Header Styles */
+  /* Header Styles */
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    z-index: 10;
+    
+
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li {
+    margin: 0 40px;
+    
+    
+  }
+  header nav ul li a{
+    text-decoration: none;
+    color: inherit;
+    
+    
+  }
+  header nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(107, 107, 109);
+    
+    
+  }
+ 
+
+
+  header button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 10rem;
+    color: inherit;
+  }
+
+  header .dark-mode {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  header .name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  /* Home Styles */
+  .home {
+
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .home h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .home h3{
+    text-align: center;
+  }
+  .home .fgif{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    
+  
+  }
+  .home .fgif img{
+    width: 450px;
+    height: 450px;
+    border-radius: 10000px;
+    align-items: center;
+    display: block;
+    margin-bottom: 10px;
+    
+
+   }
+   .home button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: inherit;
+
+   }
+   .home h2{
+    text-align: center;
+   }
+   .home .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 40px;
+
+   }
+   .home .social ul{
+    list-style: none;
+    display: flex;
+   }
+   .home .social li{
+    margin: 0 15px;
+    cursor: pointer;
+   }
+   .home .social li:hover{
+    scale: 1.2;
+   }
+   .home .social a{
+    color:inherit
+   }
+
+  /* Projects Styles */
+  .projects {
+    padding: 50px 0;
+  }
+  
+  .projects h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .projects .project {
+    margin-bottom: 30px;
+  }
+  
+  .projects .project h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .projects .project p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* AboutMe Styles */
+  .about-me {
+    padding: 50px 0;
+  }
+  
+  .about-me h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-me .about-me-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-me .about-me-image {
+    margin-right: 20px;
+    max-width: 300px;
+  }
+  
+  .about-me .about-me-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .about-me .about-me-text {
+    max-width: 600px;
+  }
+  
+  .about-me .about-me-text p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Footer Styles */
+  footer {
+    
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    header nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header nav ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    header nav ul li {
+      margin: 10px;
+    }
+    header button{
+      margin-left: 5vh;
+      
+    }
+
+  }
+  
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      header nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    
+      header nav ul li {
+        margin: 10px;
+      }
+      header button{
+        margin-left: 5vh;
+      }
+      .home .fgif img{
+        width: 300px;
+        height: 300px;
+
+       }
+
+    }
+
+
+    /* Dark Mode */
+      .dark-mode {
+        background-color: #222;
+        color: #fff;
+        
+        }
+      
+        
+     
+
+      .dark-mode header nav {
+        background-color: #333;
+        
+      }
+
+      .dark-mode header nav ul li a {
+        color: #fff;
+        
+      }
+
+      .dark-mode header .dark-mode {
+        background-color: #fff;
+        color: #333;
+      }
+
+  
