@@ -5,6 +5,7 @@ const Projects = () => {
     <div>
       <h1>Projects</h1>
       <h2>PROYECTOS</h2>
+
     </div>
   );
 };

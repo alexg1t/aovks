@@ -175,6 +175,7 @@
   /* Projects Styles */
   .projects {
     padding: 50px 0;
+    
   }
   
   .projects h1 {
@@ -201,40 +202,44 @@
   
   /* AboutMe Styles */
   .about-me {
-    padding: 50px 0;
-  }
-  
-  .about-me h1 {
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .about-me .about-me-content {
-    display: flex;
+    padding: 20px 0;
     justify-content: center;
     align-items: center;
   }
-  
-  .about-me .about-me-image {
-    margin-right: 20px;
-    max-width: 300px;
+
+  .about-me .tech-stack{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 2vh;
+    
   }
-  
-  .about-me .about-me-image img {
-    width: 100%;
-    height: auto;
+  .about-me .tech-stack h4{
+    font-size: 15px;
+    text-align: center;
+    
   }
+  .about-me .tech-stack ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    margin: 0 auto;
+   }
+  .about-me .tech-stack li{
+    margin: 0 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+   }
+  .about-me .tech-stack li:hover{
+    scale: 1.2;
+   }
+
   
-  .about-me .about-me-text {
-    max-width: 600px;
-  }
-  
-  .about-me .about-me-text p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
+
   
   /* Footer Styles */
   footer {
