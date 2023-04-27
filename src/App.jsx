@@ -15,7 +15,7 @@ const App = () => {
     setDarkMode(!darkMode);
   };
   return (
-    <div className={darkMode ? 'dark-mode' : ''}>
+    <div className={darkMode ? 'dark-mode container' : 'container'}>
     <Router>
       
         <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>

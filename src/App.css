@@ -17,7 +17,6 @@
     word-wrap: break-word;
     
 
-
   }
   div{
     transition: background-color 0.3s ease-out  ;
@@ -26,9 +25,8 @@
   
   
   .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    min-height: 100vh;
+   
   }
 
   /* Header Styles */
@@ -85,7 +83,7 @@
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
-    margin-left: 10rem;
+    margin-left: 9rem;
     color: inherit;
   }
 
@@ -219,6 +217,14 @@
     font-size: 15px;
     text-align: center;
     
+    
+  }
+  .about-me .tech-stack h3{
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+    
+    
   }
   .about-me .tech-stack ul{
     list-style: none;
@@ -227,10 +233,13 @@
     justify-content:center;
     text-align: center;
     margin: 0 auto;
+    cursor: default;
+    flex-wrap: wrap;
+    
    }
   .about-me .tech-stack li{
     margin: 0 20px;
-    cursor: pointer;
+    
     display: flex;
     flex-direction: column;
    }
@@ -246,31 +255,14 @@
     
     padding: 20px 0;
     text-align: center;
+    
+    
+    bottom: 0;
+    width: 100%;
+    height: 50px;
   }
   
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    header nav {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    header nav ul {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
-  
-    header nav ul li {
-      margin: 10px;
-    }
-    header button{
-      margin-left: 5vh;
-      
-    }
 
-  }
   
     /* Responsive Styles */
     @media (max-width: 768px) {
@@ -290,7 +282,7 @@
         margin: 10px;
       }
       header button{
-        margin-left: 5vh;
+        margin-left: 1vh;
       }
       .home .fgif img{
         width: 300px;
