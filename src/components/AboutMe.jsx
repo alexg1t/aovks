@@ -1,13 +1,18 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase, faRobot } from '@fortawesome/free-solid-svg-icons';
 import { faSquareJs,faPython,faGitAlt,faHtml5,faCss3Alt,faAws,faReact } from '@fortawesome/free-brands-svg-icons';
 
 const AboutMe = () => {
   return (
     <div className='about-me'>
-      <h1>Aboutme</h1>;
-      <h2>SOBRE</h2>
+      <h1>About Me <FontAwesomeIcon icon={faRobot} /></h1>
+      <h2>Software Developer</h2>
+      <p>
+      Hi, I'm Alexander and I have a bachelor degree in Electronic Engineering. 
+      While I enjoyed working with hardware and circuits during my studies which led me to pursue a specialization in Industrial Automation, 
+      I have recently discovered an interest for software development and am excited to pursue a career in this field. I'm
+      </p>
       <div className='tech-stack'>
         <h3>
           Tech Stack

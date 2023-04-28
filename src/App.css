@@ -203,18 +203,24 @@
     padding: 20px 0;
     justify-content: center;
     align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .about-me h1{
+    color:0 auto;
+    font-size: 4vh;
   }
 
   .about-me .tech-stack{
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 2vh;
     
   }
   .about-me .tech-stack h4{
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     
     
@@ -246,6 +252,9 @@
   .about-me .tech-stack li:hover{
     scale: 1.2;
    }
+  .about-me p{
+    font-size: 20px;
+  }
 
   
 
