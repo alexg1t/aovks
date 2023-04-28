@@ -11,7 +11,21 @@ const AboutMe = () => {
       <p>
       Hi, I'm Alexander and I have a bachelor degree in Electronic Engineering. 
       While I enjoyed working with hardware and circuits during my studies which led me to pursue a specialization in Industrial Automation, 
-      I have recently discovered an interest for software development and am excited to pursue a career in this field. I'm
+      I have recently discovered an interest for software development and am excited to pursue a career in this field.
+ 
+      <br></br>
+      <br></br>
+      Over the past few months, I have been teaching myself some programming
+      languages and frameworks but also taking external courses. I have started a more
+      Front End related career but I am also interested in Back End even though I am not proficient
+      enough on that, however I am enrolled on the Oracle Next Education program to follow a Back End
+      related course.
+      <br></br>
+      I am also interested to learn more about Data Science and have already taken steps towards this goal by planning to enroll in a course within the next few months.
+      On top of that I am learning about prompt engineering in this <a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/" target="_blank"> brief course</a>, it is given by Deep Learning AI 
+      in partnership with OpenAI and is quite interesting.
+      
+    
       </p>
       <div className='tech-stack'>
         <h3>

@@ -216,6 +216,7 @@
     justify-content: center;
     align-items: center;
     font-size: 60px;
+    margin-top: 5vh;
     margin-bottom: 2vh;
     
   }
@@ -255,6 +256,13 @@
   .about-me p{
     font-size: 20px;
   }
+  .about-me p a{
+    color: inherit;
+  }
+  .about-me p a:hover{
+    color:gray;
+  }
+  
 
   
 
