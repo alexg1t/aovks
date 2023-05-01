@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import projectData from './projects.json';
 
-function Project() {
+function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
@@ -26,4 +26,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default Projects;
